@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1313998373897668}
+  m_IsPrefabAsset: 1
+--- !u!1 &1313998373897668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4184573578797852}
+  - component: {fileID: 114649105142259106}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4184573578797852
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313998373897668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0595024, y: -0.97645867, z: -9.893099}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114649105142259106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1313998373897668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c164cefc9b0c849b9976da2e2bbf8705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  railroadIndex: 
+  gameBoard: []
+  trainBoard: []
+  greenGrass: {fileID: 21300000, guid: 29b80f515a2f945d79c119fe6f5d50a8, type: 3}
+  greenerGrass: {fileID: 21300000, guid: 26146bd933e6646d189cd34bfbfe04bf, type: 3}
+  destSprite: {fileID: 21300000, guid: 158b94d34c1cb43fba16dd088fd3d083, type: 3}
+  startIndex: 0
+  car: {fileID: 1663957562891578, guid: a03192d9e1a024210915da6d2e08e760, type: 2}
+  train: {fileID: 1855711507899260, guid: 487993cc7b4aa41138fdd1b8be1f9067, type: 2}
+  curve1: {fileID: 1151918606765710, guid: 27e1615107a564e87ab66f5f48f0de0c, type: 2}
+  curve2: {fileID: 1292190855794880, guid: 0fea9d393a56f4222b4831b97ad22c70, type: 2}
+  curve3: {fileID: 1067507705033850, guid: 1c675709ec7814322aee4fa5cd8479bd, type: 2}
+  curve4: {fileID: 1510480110493442, guid: 3c5d006b27a754d6b817d42106d1047a, type: 2}
+  hor: {fileID: 1843545068174392, guid: c3ce029cc09a848fab88ee9bc70fa860, type: 2}
+  vert: {fileID: 1628775300799624, guid: bf969cf95ab3042fd94c591d277badcb, type: 2}
+  money: 0
