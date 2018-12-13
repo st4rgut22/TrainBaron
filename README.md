@@ -1,5 +1,7 @@
 # TrainBaron
 
+A 2D strategy game made in Unity
+
 Game Development:
 
 Written in C# using Unity Game Engine.
